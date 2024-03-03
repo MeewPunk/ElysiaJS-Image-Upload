@@ -3,9 +3,9 @@
 # Elysia with Bun runtime
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
+Clone
 ```bash
-bun create elysia ./elysia-example
+git clone https://github.com/MeewPunk/ElysiaJS-Image-Upload.git
 ```
 
 ## Development
