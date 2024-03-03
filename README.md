@@ -14,3 +14,17 @@ To start the development server run:
 bun run dev
 ```
 
+HTTP Request py
+
+import requests
+
+url = "http://localhost:8080/v1/upload/image"
+
+payload = {"imageBase64" : "/9j/4AAQSkZJRgABAQAAAQABAAD<base64>lCNiU7kShsTkCYUEXIoR8gppEwjYhLIrEZ5MSmcmKG"}
+headers = {
+  'Content-Type': 'text/plain'
+}
+
+response = requests.request("POST", url, headers=headers, data=payload)
+
+print(response.text)
