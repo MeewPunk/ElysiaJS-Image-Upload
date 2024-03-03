@@ -7,11 +7,20 @@ Clone
 ```bash
 git clone https://github.com/MeewPunk/ElysiaJS-Image-Upload.git
 ```
-
-## Development
-To start the development server run:
+## cd
+cd ElysiaJS-Image-Upload:
 ```bash
-bun run dev
+cd ElysiaJS-Image-Upload
+```
+## Install
+Install Package:
+```bash
+yarn install
+```
+## Run
+Run:
+```bash
+ bun run dev
 ```
 
 HTTP Request py
